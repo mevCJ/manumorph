@@ -2,7 +2,7 @@ import tensorflow as tf
 import numpy as np
 import cv2
 from tensorflow.keras.applications.vgg16 import VGG16
-from tensorflow.keras.backend as K
+import tensorflow.keras.backend as K
 from PIL import Image
 from scipy.optimize import fmin_l_bfgs_b
 from scipy.misc import imsave
